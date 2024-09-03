@@ -75,7 +75,7 @@
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 % Here's where the presentation starts, with the info for the title slide
-\title[B2OC]{Model-independent measurement of \texorpdfstring{$\gamma$}{gamma} using \texorpdfstring{$B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$}{B2DhD2hhpipi} decays}
+\title[113rd LHCb Week]{Model-independent measurement of \texorpdfstring{$\gamma$}{gamma} using \texorpdfstring{$B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$}{B2DhD2hhpipi} decays}
 
 \author[Martin Tat]{Sneha Malde \inst{1}, Claire Prouve \inst{2}, Jonas Rademacker \inst{3}, \textbf{Martin Tat}\inst{1,5}, Ben Westhenry \inst{3}, Mark Whitehead \inst{4}, Guy Wilkinson \inst{1}}
 \institute[University of Oxford]{\tiny \inst{1} University of Oxford, \inst{2} Universidade da Coruña, \inst{3} University of Bristol, \inst{4} University of Glasgow, \inst{5} Universit\"at Heidelberg}
@@ -123,7 +123,7 @@
       \includegraphics[width = 1.0\textwidth]{Plots/ckmfitter_loop.png}
       \caption{Loop level: $\gamma = \big(65.5^{+1.1}_{-2.7}\big)^\circ$}
     \end{subfigure}
-    \vspace{-0.3cm}
+    \vspace{-0.8cm}
     \captionsetup{justification=centering}
     \caption*{\centering\tiny CKMfitter Group (J. Charles et al.), Eur. Phys. J. C41, 1-131 (2005), updated results and plots available at: \href{http://ckmfitter.in2p3.fr}{http://ckmfitter.in2p3.fr}}
   \end{figure}
@@ -241,13 +241,13 @@
   \vspace{0.0cm}
   \begin{enumerate}
     \setlength\itemsep{1.2em}
-    \item{First proposed by J. Rademacker and G. Wilkinson}
+    \item{First proposed by J. Rademacker and G. Wilkinson:}
     \begin{itemize}
       \item{\href{https://arxiv.org/abs/hep-ph/0611272}{Physics Letters B \textbf{647} (2007) 400}}
       \item{Amplitude model by FOCUS}
       \item{Expected $\gamma$ precision from amplitude fit with $1000$ candidates: $14^\circ$}
     \end{itemize}
-    \item{CLEO amplitude analysis}
+    \item{CLEO amplitude analysis:}
     \begin{itemize}
       \item{\href{https://arxiv.org/abs/1201.5716}{Phys. Rev. D \textbf{85} (2012) 122002}}
       \item{Expected $\gamma$ precision from amplitude fit with $2000$ candidates: $11^\circ$}
@@ -268,11 +268,11 @@
   \vspace{0.0cm}
   \begin{enumerate}
     \setlength\itemsep{1.2em}
-    \item{CLEO amplitude analysis}
+    \item{CLEO amplitude analysis:}
     \begin{itemize}
       \item{\href{https://arxiv.org/abs/1703.08505}{JHEP \textbf{05} (2017) 143}}
     \end{itemize}
-    \item{CLEO-c strong-phase measurement}
+    \item{CLEO-c strong-phase measurement:}
     \begin{itemize}
       \item{\href{https://arxiv.org/abs/1709.03467}{JHEP \textbf{01} (2018) 144}}
       \item{Expected $\gamma$ statistical (systematic) precision with $2\times 5$ bins is $9.7^\circ$ ($7.4^\circ$)}
@@ -284,7 +284,7 @@
     \item{New BESIII amplitude model:}
     \begin{itemize}
       \item{\href{https://arxiv.org/abs/2312.02524}{arXiv:2312.02524}}
-      \item{Joint effort between Oxford and Bristol group using a new, optimal binning schem}
+      \item{Joint effort between Oxford and Bristol group using a new, optimal binning scheme}
     \end{itemize}
   \end{enumerate}
 \end{frame}
@@ -294,7 +294,7 @@
     {\large Phase-space integrated study of $\gamma$: \\
     Charged asymmetries measured for $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ in Eur. Phys. J. C \textbf{83} 547 (2023)}
   \end{center}
-  \vspace{-0.2cm}
+  \vspace{-0.4cm}
   \begin{figure}
     \centering
     \includegraphics[width = 0.9\textwidth,trim={0 7cm 0 0},clip=true]{Plots/d2kkpipi_fiveL_allDP_GLW.pdf}
@@ -315,7 +315,7 @@
     {\large Phase-space integrated study of $\gamma$: \\
     Charged asymmetries measured for $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ in Eur. Phys. J. C \textbf{83} 547 (2023)}
   \end{center}
-  \vspace{-0.2cm}
+  \vspace{-0.4cm}
   \begin{figure}
     \centering
     \includegraphics[width = 0.9\textwidth,trim={0 7cm 0 0},clip=true]{Plots/d2pipipipi_fiveL_allDP_GLW.pdf}
@@ -333,7 +333,7 @@
 
 \begin{frame}[fragile]{Multi-body $D$ decays}
   \begin{center}
-    This talk: Discuss $D\to h^+h^-\pi^+\pi^-$, where interference effects vary across phase space
+    Main focus of this talk: Discuss phase-space binned analysis of $D\to h^+h^-\pi^+\pi^-$
   \end{center}
   \vspace{-0.3cm}
   \begin{itemize}
@@ -378,14 +378,13 @@
     \end{itemize}
   \end{itemize}
   \begin{itemize}
-    \item{Amplitude averaged strong phases:}
+    \item{Amplitude-averaged strong phases:}
     \begin{center}
       $c_i = \frac{\int_i\dd{\Phi}|\mathcal{A}(D^0)||\mathcal{A}(\bar{D^0})|\cos(\delta_D)}{\sqrt{\int_i\dd{\Phi}\abs{\mathcal{A}(D^0)}^2\int_i\dd{\Phi}\abs{\mathcal{A}(\bar{D^0})}^2}}$ \quad $s_i = \frac{\int_i\dd{\Phi}|\mathcal{A}(D^0)||\mathcal{A}(\bar{D^0})|\sin(\delta_D)}{\sqrt{\int_i\dd{\Phi}\abs{\mathcal{A}(D^0)}^2\int_i\dd{\Phi}\abs{\mathcal{A}(\bar{D^0})}^2}}$
     \end{center}
   \end{itemize}
 \end{frame}
 
-\section{Model-dependent \texorpdfstring{$\gamma$}{gamma} with \texorpdfstring{$D\to K^+K^-\pi^+\pi^-$}{D2KKpipi}}
 \begin{frame}{$D^0\to K^+K^-\pi^+\pi^-$ binning scheme}
   \begin{itemize}
     \setlength\itemsep{0.5em}
@@ -433,14 +432,13 @@
     {\large How will this evolve with model-independent BESIII inputs? Will the $3\sigma$ tension reduce?}
   \end{center}
 \end{frame}
-%%% Go through the slides below
+
 \begin{frame}{Motivation for this analysis}
   \begin{center}
-    {\Large What is new in this presentation?}
+    {\Large What is new from previous analysis of $K^+K^-\pi^+\pi^-$?}
   \end{center}
   \begin{itemize}
     \setlength\itemsep{1.0em}
-    \item{I will only discuss the binned analysis of these modes today}
     \item{Binned strong-phase analyses of $D\to K^+K^-\pi^+\pi^-$ (Oxford) and $D\to\pi^+\pi^-\pi^+\pi^-$ (Oxford-USTC) are emerging from BESIII}
     \begin{itemize}
       \item{For $D\to\pi^+\pi^-\pi^+\pi^-$, these improve in precision on earlier binned study made with CLEO-c data \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
@@ -453,7 +451,7 @@
 
 \begin{frame}{Motivation for this analysis}
   \begin{center}
-    {\color{blue}The results shown in this presentation make use of strong-phase results from the BESIII collaboration. They derive from mature analyses led by Oxford and USTC, but are not yet public, and remain preliminary in nature. They are not to be shown outside LHCb. We thank the BESIII management for the privilege of being allowed to use them during the review of this measurement.}
+    {\color{blue}The results shown in this presentation make use of strong-phase results from the BESIII collaboration. They derive from mature analyses led by Oxford and USTC, but some of these are not yet public, and remain preliminary in nature. They are not to be shown outside LHCb. We thank the BESIII management for the privilege of being allowed to use them during the review of this measurement.}
   \end{center}
 \end{frame}
 
@@ -490,25 +488,6 @@
 \end{frame}
 
 \begin{frame}{BESIII preliminary $D^0\to\pi^+\pi^-\pi^+\pi^-$ strong-phase results}
-  \vspace{0.3cm}
-  \begin{itemize}
-    \setlength\itemsep{1.0em}
-    \item{Binned strong-phase analysis of $D^0\to\pi^+\pi^-\pi^+\pi^-$ uses the $2\times5$ ``optimal'' binning scheme with $3$~fb$^{-1}$ $\psi(3770)$}
-    \item{Earlier CLEO-c analysis with $0.8$~fb$^{-1}$ \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
-    \item{New BESIII analysis uses a new binning scheme optimised with a BESIII amplitude model \href{https://arxiv.org/abs/2312.02524}{arXiv:2312.02524}}
-    \begin{itemize}
-      \item{Amplitude model constructed from a larger data set}
-      \item{In principle more sensitive}
-    \end{itemize}
-    \item{Two binning schemes are available:}
-    \begin{itemize}
-      \item{We use the more sensitive ``optimal'' binning with $Q = 0.85$}
-      \item{The other ``equal $\delta$'' binning has $Q = 0.80$}
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{BESIII preliminary $D^0\to\pi^+\pi^-\pi^+\pi^-$ strong-phase results}
   \begin{center}
     Small differences between model prediction and measurement, but data points are generally close to the unit circle
   \end{center}
@@ -541,11 +520,12 @@
   \end{center}
 \end{frame}
 
-\section{Global fit}
+\section{Analysis: Global fit}
 \begin{frame}{Global fit}
   \begin{center}
     {\large Global fit of $K^+K^-\pi^+\pi^-$ remains as in model-dependent publication:}
   \end{center}
+  \vspace{-0.5cm}
   \begin{figure}
     \centering
     \includegraphics[width = 0.9\textwidth,trim={0 0 0 0},clip=true]{Plots/d2kkpipi_fiveL_allDP.pdf}
@@ -554,29 +534,9 @@
   \begin{itemize}
     \item{$B^\pm\to[K^+K^-\pi^+\pi^-]_Dh^\pm$ signal yield:}
     \begin{itemize}
-      \item{$B^\pm\to DK^\pm$: $3051 \pm 38$}
-      \item{$B^\pm\to D\pi^\pm$: $44356 \pm 218$}
+      \item{$B^\pm\to DK^\pm$: $3304 \pm 42$}
+      \item{$B^\pm\to D\pi^\pm$: $47894 \pm 235$}
     \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Global fit}
-  \begin{center}
-    {\large How do we include the $\pi^+\pi^-\pi^+\pi^-$ mode?}
-  \end{center}
-  \begin{itemize}
-    \setlength\itemsep{1.5em}
-    \item{We \underline{have already studied} $B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ for phase-space integrated measurement}
-    \begin{enumerate}
-      \setlength\itemsep{0.5em}
-      \item{Different $D$ daughter PID cuts in stripping}
-      \item{No $D\to K\pi\pi\pi\pi^0$ background}
-      \item{Charmless background recalculated using the sideband}
-      \item{Use same BDT}
-      \item{No additional peaking backgrounds}
-    \end{enumerate}
-    \item{Sort candidates into phase-space bins using BESIII binning scheme}
-    \item{Can fit separately or simultaneously with $K^+K^-\pi^+\pi^-$}
   \end{itemize}
 \end{frame}
 
@@ -584,6 +544,7 @@
   \begin{center}
     {\large Global fit of $\pi^+\pi^-\pi^+\pi^-$ has a good fit quality:}
   \end{center}
+  \vspace{-0.5cm}
   \begin{figure}
     \centering
     \includegraphics[width = 0.9\textwidth,trim={0 0 0 0},clip=true]{Plots/d2pipipipi_fiveL_allDP.pdf}
@@ -592,13 +553,13 @@
   \begin{itemize}
     \item{$B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ signal yield:}
     \begin{itemize}
-      \item{$B^\pm\to DK^\pm$: $8745 \pm 105$}
-      \item{$B^\pm\to D\pi^\pm$: $126314 \pm 385$}
+      \item{$B^\pm\to DK^\pm$: $9211 \pm 112$}
+      \item{$B^\pm\to D\pi^\pm$: $132654 \pm 398$}
     \end{itemize}
   \end{itemize}
 \end{frame}
 
-\section{CP fit}
+\section{Analysis: CP fit}
 \begin{frame}{CP fit}
   \begin{center}
     {\large After global fit, perform a ``CP fit'' to study CP violation:}
@@ -616,51 +577,6 @@
     \item{$2N - 1$ floating $F_i$ parameters}
     \item{\underline{$c_i$ and $s_i$ are Gaussian constrained}}
   \end{itemize}
-\end{frame}
-
-\begin{frame}{CP fit categories}
-  \begin{center}
-    {\large Summary of free parameters in the CP fit:}
-  \end{center}
-  \vspace{-0.5cm}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{center}
-        $K^+K^-\pi^+\pi^-$ \\
-        $2\times2\times2\times4 = 32$ categories
-      \end{center}
-      \begin{itemize}
-        \setlength\itemsep{0.0em}
-        \item{6 CP observables}
-        \item{7 $F_i$ parameters}
-        \item{8 $c_i$ and $s_i$ parameters}
-        \item{32 combinatorial yields}
-        \item{32 low mass yields}
-        \item{4 global normalisations}
-        \item{Total: 89 parameters}
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{center}
-        $\pi^+\pi^-\pi^+\pi^-$ \\
-        $2\times2\times2\times5 = 40$ categories
-      \end{center}
-      \begin{itemize}
-        \setlength\itemsep{0.0em}
-        \item{6 CP observables}
-        \item{9 $F_i$ parameters}
-        \item{10 $c_i$ and $s_i$ parameters}
-        \item{40 combinatorial yields}
-        \item{40 low mass yields}
-        \item{4 global normalisations}
-        \item{Total: 109 parameters}
-      \end{itemize}
-    \end{column}
-  \end{columns}
-  \vspace{0.3cm}
-  \begin{center}
-    In a combined fit where CP observables are shared, there are $89 + 109 - 6 = 192$ parameters
-  \end{center}
 \end{frame}
 
 \begin{frame}{CP fit bin asymmetry}
@@ -683,25 +599,6 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{Strong-phase parameters in CP fit}
-  \begin{center}
-    {\large Why are $c_i$ and $s_i$ Gaussian constrained?}
-  \end{center}
-  \begin{itemize}
-    \setlength\itemsep{1.0em}
-    \item{Previous BPGGSZ analyses have kept $c_i$ and $s_i$ fixed}
-    \begin{enumerate}
-      \item{$c_i$ and $s_i$ uncertainties are added as a systematic through smearing}
-      \item{Convenient for calculating correlations between different analyses}
-      \item{Appropriate when $c_i$ and $s_i$ uncertainties are \underline{small}}
-    \end{enumerate}
-    \item{In four-body analyses, uncertainties on $\gamma$ from $c_i$ and $s_i$ are almost the same size as the statistical uncertainty}
-    \item{Large $s_i$ uncertainties introduces non-Gaussian uncertainties on $y_\pm$}
-    \item{$\gamma$ moves significantly when fixing $s_i$ instead of constraining them}
-    \item{These effects are largest for $K^+K^-\pi^+\pi^-$, but are also seen in $\pi^+\pi^-\pi^+\pi^-$ and in the combined fit}
-  \end{itemize}
-\end{frame}
-
 \begin{frame}{Likelihood scan of CP observables}
   \begin{center}
     $x_\pm^{DK}$ agree well between likelihood scan and Hesse approximation
@@ -721,28 +618,6 @@
       \caption*{$x_+^{DK}$}
     \end{subfigure}
     \caption*{$D^0\to K^+K^-\pi^+\pi^-$}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Likelihood scan of CP observables}
-  \begin{center}
-    $x_\pm^{DK}$ agree well between likelihood scan and Hesse approximation
-  \end{center}
-  \begin{figure}
-    \centering
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/A_xm_dk_likelihood_scan_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$x_-^{DK}$}
-    \end{subfigure}%
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/A_xp_dk_likelihood_scan_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$x_+^{DK}$}
-    \end{subfigure}
-    \caption*{$D^0\to\pi^+\pi^-\pi^+\pi^-$}
   \end{figure}
 \end{frame}
 
@@ -770,99 +645,23 @@
 
 \begin{frame}{Likelihood scan of CP observables}
   \begin{center}
-    $y_\pm^{DK}$ diverges from Hesse approximation outside $1\sigma$
-  \end{center}
-  \begin{figure}
-    \centering
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/A_ym_dk_likelihood_scan_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$y_-^{DK}$}
-    \end{subfigure}%
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/A_yp_dk_likelihood_scan_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$y_+^{DK}$}
-    \end{subfigure}
-    \caption*{$D^0\to\pi^+\pi^-\pi^+\pi^-$}
-  \end{figure}
-\end{frame}
-
-\begin{frame}{Likelihood scan of CP observables}
-  \begin{center}
     {\large What do the likelihood scans tell us?}
   \end{center}
   \begin{itemize}
     \setlength\itemsep{1.5em}
     \item{Uncertainties from $c_i$ and $s_i$ are significant, which justifies Gaussian constraining $c_i$ and $s_i$}
-    \item{Non-Gaussian uncertainties means GammaCombo cannot be used}
     \item{New strategy:}
     \begin{enumerate}
       \setlength\itemsep{0.5em}
       \item{Produce a likelihood function from CP fit}
       \item{Interpret CP observables in terms of $\gamma$, etc}
       \item{Must \underline{profile} all nuisance parameters ($F_i$, $c_i$, $s_i$, backgrounds yields, normalisation constants)}
-      \item{Provide direct measurements of $\gamma$, $\delta_B$ and $r_B$ without GammaCombo}
+      \item{Provide direct measurements of $\gamma$, $\delta_B$ and $r_B$}
     \end{enumerate}
   \end{itemize}
 \end{frame}
 
-\section{Systematic uncertainties}
-\begin{frame}{Summary of LHCb internal systematic uncertainties}
-  \begin{center}
-    Internal LHCb systematic uncertainties from model-dependent analysis of $K^+K^-\pi^+\pi^-$:
-  \end{center}
-  \vspace{-0.3cm}
-  \scriptsize
-  \vspace{0.02cm}
-  \begin{center}
-    \begin{tabular}{lcccccc}
-        \hline
-        Source & $x_-^{DK}$ & $y_-^{DK}$ & $x_+^{DK}$ & $y_+^{DK}$ & $x_\xi^{D\pi}$ & $y_\xi^{D\pi}$ \\
-        \hline
-        Statistical                                                & $2.87$ & $3.40$ & $2.51$ & $3.05$ & $4.24$ & $5.17$ \\
-        \hline
-        Mass shape                                                 & $0.02$ & $0.02$ & $0.03$ & $0.06$ & $0.02$ & $0.04$ \\
-        Bin-dependent mass shape                                   & $0.11$ & $0.05$ & $0.10$ & $0.19$ & $0.68$ & $0.16$ \\
-        PID efficiency                                             & $0.02$ & $0.02$ & $0.03$ & $0.06$ & $0.02$ & $0.04$ \\
-        Low-mass background model                                  & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.02$ & $0.02$ \\
-        Charmless background                                       & $0.14$ & $0.15$ & $0.12$ & $0.14$ & $0.01$ & $0.02$ \\
-        $C\!P$ violation in low-mass background                    & $0.01$ & $0.10$ & $0.08$ & $0.12$ & $0.07$ & $0.26$ \\
-        Semi-leptonic $b$-hadron decays                            & $0.05$ & $0.27$ & $0.06$ & $0.01$ & $0.07$ & $0.19$ \\
-        Semi-leptonic charm decays                                 & $0.02$ & $0.07$ & $0.03$ & $0.15$ & $0.06$ & $0.24$ \\
-        $D\to K^-\pi^+\pi^-\pi^+$ background                       & $0.11$ & $0.05$ & $0.07$ & $0.04$ & $0.09$ & $0.05$ \\
-        $\Lambda_b\to pD\pi^-$ background                          & $0.01$ & $0.25$ & $0.14$ & $0.04$ & $0.06$ & $0.34$ \\
-        $D\to K^-\pi^+\pi^-\pi^+\pi^0$ background                  & $0.30$ & $0.05$ & $0.19$ & $0.07$ & $0.05$ & $0.01$ \\
-        Fit bias                                                   & $0.06$ & $0.05$ & $0.13$ & $0.02$ & $0.06$ & $0.13$ \\
-        \hline
-        Total LHCb systematic                                      & $0.37$ & $0.43$ & $0.34$ & $0.32$ & $0.70$ & $0.57$ \\
-        \hline
-    \end{tabular}
-  \end{center}
-  \begin{center}
-    {\normalsize Give systematic uncertainties in terms of CP observables (not $\gamma$) since these are more Gaussian and better behaved}
-  \end{center}
-\end{frame}
-
-\begin{frame}{Summary of LHCb internal systematic uncertainties}
-  \begin{center}
-    Internal LHCb systematics for $\pi^+\pi^-\pi^+\pi^-$ have not been calculated yet, but the plan is to run the same procedure from $K^+K^-\pi^+\pi^-$ on this mode during review, with minor simplifications:
-  \end{center}
-  \begin{enumerate}
-    \setlength\itemsep{1.5em}
-    \item{No $K\pi\pi\pi$ background}
-    \item{No $K\pi\pi\pi\pi^0$ background}
-    \item{No $D$ semileptonic background}
-  \end{enumerate}
-  \vspace{0.2cm}
-  \begin{center}
-    Reminder: LHCb internal systematic uncertainties are expected to be an order of magnitude smaller than statistical uncertainties!
-  \end{center}
-\end{frame}
-
-\section{Interpretation}
+\section{Analysis: Interpretation}
 \begin{frame}{Interpretation strategy}
   \begin{center}
     {\large From CP fit, we have a (negative log) likelihood function with nuisance parameters $n_k$:}
@@ -879,63 +678,7 @@
   \end{equation*}
   \vspace{0.1cm}
   \begin{center}
-    {\normalsize In this step, also add a Gaussian smearing term on CP observables to account for internal LHCb systematics}
-  \end{center}
-\end{frame}
-
-\begin{frame}{Interpretation toys}
-  \begin{center}
-    We can perform toy studies on the interpretation fit, but we do \underline{not} expect these to behave very Gaussian...
-  \end{center}
-  \begin{figure}
-    \centering
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_KKpipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$K^+K^-\pi^+\pi^-$}
-    \end{subfigure}%
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$\pi^+\pi^-\pi^+\pi^-$}
-    \end{subfigure}
-    \vspace{-0.5cm}
-    \caption*{$\gamma$ pull distributions}
-  \end{figure}
-  \vspace{-0.3cm}
-  \begin{center}
-    Indeed, small but significant biases are observed!\\
-    Use pull distributions to correct central values of physics parameters
-  \end{center}
-\end{frame}
-
-\begin{frame}{Interpretation toys}
-  \begin{center}
-    We can perform toy studies on the interpretation fit, but we do \underline{not} expect these to behave very Gaussian...
-  \end{center}
-  \begin{figure}
-    \centering
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_KKpipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$K^+K^-\pi^+\pi^-$}
-    \end{subfigure}%
-    \begin{subfigure}{0.5\textwidth}
-      \centering
-      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_pipipipi.pdf}
-      \vspace{-0.3cm}
-      \caption*{$\pi^+\pi^-\pi^+\pi^-$}
-    \end{subfigure}
-    \vspace{-0.5cm}
-    \caption*{$\gamma$ pull distributions}
-  \end{figure}
-  \vspace{-0.3cm}
-  \begin{center}
-    The absolute bias corrections are:\\
-    $K^+K^-\pi^+\pi^-$: $+5.6^\circ$, $\pi^+\pi^-\pi^+\pi-$: $-3.0^\circ$, combined: $-3.0^\circ$
+    {\normalsize In this step, also add a Gaussian smearing term on CP observables to account for internal LHCb systematics (see backup)}
   \end{center}
 \end{frame}
 
@@ -950,11 +693,11 @@
         Model independent
       \end{center}
       \begin{align*}
-        \gamma =& (117 \pm 15)^\circ \\
-        \delta_B^{DK} =& (83 \pm 12)^\circ \\
-        r_B^{DK} =& (12.1 \pm 2.6)\times10^{-2} \\
-        \delta_B^{D\pi} =& (295 \pm 74)^\circ \\
-        r_B^{D\pi} =& (0 \pm 5)\times10^{-3}
+        \gamma =& (119 \pm 14)^\circ \\
+        \delta_B^{DK} =& (80 \pm 12)^\circ \\
+        r_B^{DK} =& (11.4 \pm 2.3)\times10^{-2} \\
+        \delta_B^{D\pi} =& (253 \pm 62)^\circ \\
+        r_B^{D\pi} =& (3 \pm 7)\times10^{-3}
       \end{align*}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -972,7 +715,7 @@
   \end{columns}
   \vspace{0.2cm}
   \begin{center}
-    LHCb systematics not included yet, but central value of $\gamma$ remains high...\\
+    Central value of $\gamma$ remains high...\\
     ... it seems that the large tension with the LHCb global result $\gamma = (63.8^{+3.5}_{-3.7})^\circ$ remains
   \end{center}
 \end{frame}
@@ -988,11 +731,11 @@
         $K^+K^-\pi^+\pi^-$
       \end{center}
       \begin{align*}
-        \gamma =& (117 \pm 15)^\circ \\
-        \delta_B^{DK} =& (83 \pm 12)^\circ \\
-        r_B^{DK} =& (12.1 \pm 2.6)\times10^{-2} \\
-        \delta_B^{D\pi} =& (295 \pm 74)^\circ \\
-        r_B^{D\pi} =& (0 \pm 5)\times10^{-3}
+        \gamma =& (119 \pm 14)^\circ \\
+        \delta_B^{DK} =& (80 \pm 12)^\circ \\
+        r_B^{DK} =& (11.4 \pm 2.3)\times10^{-2} \\
+        \delta_B^{D\pi} =& (253 \pm 62)^\circ \\
+        r_B^{D\pi} =& (3 \pm 7)\times10^{-3}
       \end{align*}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -1000,11 +743,11 @@
         $\pi^+\pi^-\pi^+\pi^-$
       \end{center}
       \begin{align*}
-        \gamma =& (45 \pm 11)^\circ \\
-        \delta_B^{DK} =& (115 \pm 11)^\circ \\
-        r_B^{DK} =& (8.2 \pm 1.9)\times10^{-2} \\
-        \delta_B^{D\pi} =& (204 \pm 42)^\circ \\
-        r_B^{D\pi} =& (4 \pm 5)\times10^{-3}
+        \gamma =& (45 \pm 9)^\circ \\
+        \delta_B^{DK} =& (114 \pm 9)^\circ \\
+        r_B^{DK} =& (9.5 \pm 1.9)\times10^{-2} \\
+        \delta_B^{D\pi} =& (176 \pm 111)^\circ \\
+        r_B^{D\pi} =& (0.8 \pm 1.9)\times10^{-3}
       \end{align*}
     \end{column}
   \end{columns}
@@ -1026,11 +769,11 @@
         $K^+K^-\pi^+\pi^-$
       \end{center}
       \begin{align*}
-        \gamma =& (117 \pm 15)^\circ \\
-        \delta_B^{DK} =& (83 \pm 12)^\circ \\
-        r_B^{DK} =& (12.1 \pm 2.6)\times10^{-2} \\
-        \delta_B^{D\pi} =& (295 \pm 74)^\circ \\
-        r_B^{D\pi} =& (0 \pm 5)\times10^{-3}
+        \gamma =& (119 \pm 14)^\circ \\
+        \delta_B^{DK} =& (80 \pm 12)^\circ \\
+        r_B^{DK} =& (11.4 \pm 2.3)\times10^{-2} \\
+        \delta_B^{D\pi} =& (253 \pm 62)^\circ \\
+        r_B^{D\pi} =& (3 \pm 7)\times10^{-3}
       \end{align*}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -1038,11 +781,11 @@
         $\pi^+\pi^-\pi^+\pi^-$
       \end{center}
       \begin{align*}
-        \gamma =& (45 \pm 11)^\circ \\
-        \delta_B^{DK} =& (115 \pm 11)^\circ \\
-        r_B^{DK} =& (8.2 \pm 1.9)\times10^{-2} \\
-        \delta_B^{D\pi} =& (204 \pm 42)^\circ \\
-        r_B^{D\pi} =& (4 \pm 5)\times10^{-3}
+        \gamma =& (45 \pm 9)^\circ \\
+        \delta_B^{DK} =& (114 \pm 9)^\circ \\
+        r_B^{DK} =& (9.5 \pm 1.9)\times10^{-2} \\
+        \delta_B^{D\pi} =& (176 \pm 111)^\circ \\
+        r_B^{D\pi} =& (0.8 \pm 1.9)\times10^{-3}
       \end{align*}
     \end{column}
   \end{columns}
@@ -1055,7 +798,7 @@
 
 \begin{frame}{Likelihood scan of interpretation fit}
   \begin{center}
-    In fact, a likelihood scan shows that $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ agree within $2\sigma$ (no LHCb systematics yet)
+    In fact, a likelihood scan shows that $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ $2\sigma$ contours overlap
   \end{center}
   \begin{figure}
     \centering
@@ -1078,7 +821,7 @@
 
 \begin{frame}{Likelihood scan of interpretation fit}
   \begin{center}
-    In fact, a likelihood scan shows that $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ agree within $2\sigma$ (no LHCb systematics yet)
+    In fact, a likelihood scan shows that $D\to K^+K^-\pi^+\pi^-$ and $D\to\pi^+\pi^-\pi^+\pi^-$ $2\sigma$ contours overlap
   \end{center}
   \begin{figure}
     \centering
@@ -1144,47 +887,180 @@
   \end{figure}
   \vspace{-0.3cm}
   \begin{center}
-    Combined fit result: $\gamma = (57 \pm 9)^\circ$\\
+    Combined fit result: $\gamma = (54.0_{-9.5}^{+10.2})^\circ$ \\
     Third most precise single measurement of $\gamma$ in $B^\pm$ decays
   \end{center}
 \end{frame}
 
-\section{Conclusion}
-\begin{frame}{Conclusion}
-  \vspace{-0.1cm}
-  \begin{itemize}
-    \setlength\itemsep{1.5em}
-    \item{Binned model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
-    \begin{itemize}
-      \item{Uses BESIII strong-phase inputs which are not yet public, but are expected to become so on timescale of $\sim2$ months}
-    \end{itemize}
-    \item{$3\sigma$ tension in $D\to K^+K^-\pi^+\pi^-$ has reduced to less than $2\sigma$ due to:}
-    \begin{enumerate}
-      \item{Non-Gaussian uncertainties in $y_\pm^{DK}$ originating from $s_i$ uncertainties}
-      \item{Large anti-correlation between $\gamma$ and $\delta_B^{DK}$}
-    \end{enumerate}
-    \item{$D\to\pi^+\pi^-\pi^+\pi^-$ measurement benefits from commonalities with $K^+K^-\pi^+\pi^-$ analysis and larger BESIII data set}
-  \end{itemize}
+\begin{frame}{Combining phase-space binned and integrated results}
+  \begin{center}
+    We can add phase-space integrated observables as a constraint:
+  \end{center}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.50\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/GLW_constraints_comparison_gamma_deltaB.pdf}
+      \caption*{$\gamma$ vs $\delta_B^{DK}$}
+    \end{subfigure}%
+    \begin{subfigure}{0.50\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/GLW_constraints_comparison_rB_deltaB.pdf}
+      \caption*{$r_B^{DK}$ vs $\delta_B^{DK}$}
+    \end{subfigure}
+  \end{figure}
+  \vspace{-0.3cm}
+  \begin{center}
+    The global asymmetries contain useful information!
+  \end{center}
 \end{frame}
 
+\begin{frame}{Combining phase-space binned and integrated results}
+  \begin{center}
+    Run Plugin with phase-space integrated constraints:
+  \end{center}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{Plots/gamma_plugin_scan_GLW.pdf}
+  \end{figure}
+  \vspace{-0.3cm}
+  \begin{center}
+    Final measurement: $\gamma = (51.2_{-6.5}^{+8.9})^\circ$ \\
+  \end{center}
+\end{frame}
+
+\section{Conclusion and future prospects}
 \begin{frame}{Conclusion}
+  \vspace{-0.1cm}
+  \begin{enumerate}
+    \setlength\itemsep{1.5em}
+    \item{Binned model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (54.0_{-9.5}^{+10.2})^\circ$}
+    \begin{itemize}
+      \item{Uses BESIII strong-phase inputs, some of which are not yet public, but are expected to become so on timescale of a few months}
+    \end{itemize}
+    \item{Combination with integrated results: $\gamma = (51.2_{-6.5}^{+8.9})^\circ$}
+    \item{$3\sigma$ tension in $D\to K^+K^-\pi^+\pi^-$ has reduced}
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Future prospects}
   \vspace{0.6cm}
   \begin{itemize}
-    \setlength\itemsep{1.5em}
-    \item{Binned model-independent measurement of $\gamma$ with $B^\pm\to[h^+h^-\pi^+\pi^-]_Dh^\pm$ has been performed: $\gamma = (57 \pm 9)^\circ$}
-    \begin{itemize}
-      \item{Uses BESIII strong-phase inputs which are not yet public, but are expected to become so on timescale of $\sim2$ months}
-    \end{itemize}
+    \setlength\itemsep{2.0em}
     \item{Statistically limited measurement, but $s_i$ uncertainties are large}
     \begin{itemize}
       \item{$\pi^+\pi^-\pi^+\pi^-$: $s_i$ uncertainties will improve with full BESIII data set}
       \item{$K^+K^-\pi^+\pi^-$: Charm mixing studies can improve $s_i$ precision}
     \end{itemize}
-    \item{The ANA note is ready and available for B2OC WG review}
+    \item{The analysis is approaching WG approval}
+    \item{You can find the TWiki \href{https://twiki.cern.ch/twiki/bin/viewauth/LHCbPhysics/BPGGSZB2DhD2hhpipiModelIndependent}{here}}
   \end{itemize}
-  \vspace{0.2cm}
+  \vspace{0.5cm}
   \begin{center}
     {\huge Thanks for your attention!}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Backup: BESIII preliminary $D^0\to\pi^+\pi^-\pi^+\pi^-$ strong-phase results}
+  \vspace{0.3cm}
+  \begin{itemize}
+    \setlength\itemsep{1.0em}
+    \item{Binned strong-phase analysis of $D^0\to\pi^+\pi^-\pi^+\pi^-$ uses the $2\times5$ ``optimal'' binning scheme with $3$~fb$^{-1}$ $\psi(3770)$}
+    \item{Earlier CLEO-c analysis with $0.8$~fb$^{-1}$ \href{https://link.springer.com/article/10.1007/JHEP01(2018)144}{JHEP \textbf{01} (2018) 144}}
+    \item{New BESIII analysis uses a new binning scheme optimised with a BESIII amplitude model \href{https://arxiv.org/abs/2312.02524}{arXiv:2312.02524}}
+    \begin{itemize}
+      \item{Amplitude model constructed from a larger data set}
+      \item{In principle more sensitive}
+    \end{itemize}
+    \item{Two binning schemes are available:}
+    \begin{itemize}
+      \item{We use the more sensitive ``optimal'' binning with $Q = 0.85$}
+      \item{The other ``equal $\delta$'' binning has $Q = 0.80$}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Backup: Global fit}
+  \begin{center}
+    {\large How do we include the $\pi^+\pi^-\pi^+\pi^-$ mode?}
+  \end{center}
+  \begin{itemize}
+    \setlength\itemsep{1.5em}
+    \item{We \underline{have already studied} $B^\pm\to[\pi^+\pi^-\pi^+\pi^-]_Dh^\pm$ for phase-space integrated measurement}
+    \begin{enumerate}
+      \setlength\itemsep{0.5em}
+      \item{Different $D$ daughter PID cuts in stripping}
+      \item{No $D\to K\pi\pi\pi\pi^0$ background}
+      \item{Charmless background recalculated using the sideband}
+      \item{Use same BDT}
+      \item{No additional peaking backgrounds}
+    \end{enumerate}
+    \item{Sort candidates into phase-space bins using BESIII binning scheme}
+    \item{Can fit separately or simultaneously with $K^+K^-\pi^+\pi^-$}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Backup: Strong-phase parameters in CP fit}
+  \begin{center}
+    {\large Why are $c_i$ and $s_i$ Gaussian constrained?}
+  \end{center}
+  \begin{itemize}
+    \setlength\itemsep{1.0em}
+    \item{Previous BPGGSZ analyses have kept $c_i$ and $s_i$ fixed}
+    \begin{enumerate}
+      \item{$c_i$ and $s_i$ uncertainties are added as a systematic through smearing}
+      \item{Convenient for calculating correlations between different analyses}
+      \item{Appropriate when $c_i$ and $s_i$ uncertainties are \underline{small}}
+    \end{enumerate}
+    \item{In four-body analyses, uncertainties on $\gamma$ from $c_i$ and $s_i$ are almost the same size as the statistical uncertainty}
+    \item{Large $s_i$ uncertainties introduces non-Gaussian uncertainties on $y_\pm$}
+    \item{$\gamma$/$\delta_B$ move significantly when fixing $s_i$ instead of constraining them}
+    \item{These effects are largest for $K^+K^-\pi^+\pi^-$, but are also seen in $\pi^+\pi^-\pi^+\pi^-$ and in the combined fit}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Backup: CP fit categories}
+  \begin{center}
+    {\large Summary of free parameters in the CP fit:}
+  \end{center}
+  \vspace{-0.5cm}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        $K^+K^-\pi^+\pi^-$ \\
+        $2\times2\times2\times4 = 32$ categories
+      \end{center}
+      \begin{itemize}
+        \setlength\itemsep{0.0em}
+        \item{6 CP observables}
+        \item{7 $F_i$ parameters}
+        \item{8 $c_i$ and $s_i$ parameters}
+        \item{32 combinatorial yields}
+        \item{32 low mass yields}
+        \item{4 global normalisations}
+        \item{Total: 89 parameters}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        $\pi^+\pi^-\pi^+\pi^-$ \\
+        $2\times2\times2\times5 = 40$ categories
+      \end{center}
+      \begin{itemize}
+        \setlength\itemsep{0.0em}
+        \item{6 CP observables}
+        \item{9 $F_i$ parameters}
+        \item{10 $c_i$ and $s_i$ parameters}
+        \item{40 combinatorial yields}
+        \item{40 low mass yields}
+        \item{4 global normalisations}
+        \item{Total: 109 parameters}
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{0.3cm}
+  \begin{center}
+    In a combined fit where CP observables are shared, there are $89 + 109 - 6 = 192$ parameters
   \end{center}
 \end{frame}
 
@@ -1290,6 +1166,138 @@
     \end{subfigure}
     \caption*{$D^0\to K^+K^-\pi^+\pi^-$}
   \end{figure}
+\end{frame}
+
+\begin{frame}{Backup: Likelihood scan of CP observables}
+  \begin{center}
+    $x_\pm^{DK}$ agree well between likelihood scan and Hesse approximation
+  \end{center}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/A_xm_dk_likelihood_scan_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$x_-^{DK}$}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/A_xp_dk_likelihood_scan_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$x_+^{DK}$}
+    \end{subfigure}
+    \caption*{$D^0\to\pi^+\pi^-\pi^+\pi^-$}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Backup: Likelihood scan of CP observables}
+  \begin{center}
+    $y_\pm^{DK}$ diverges from Hesse approximation outside $1\sigma$
+  \end{center}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/A_ym_dk_likelihood_scan_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$y_-^{DK}$}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/A_yp_dk_likelihood_scan_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$y_+^{DK}$}
+    \end{subfigure}
+    \caption*{$D^0\to\pi^+\pi^-\pi^+\pi^-$}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Backup: Summary of LHCb internal systematic uncertainties}
+  \scriptsize
+  \vspace{0.02cm}
+  \begin{center}
+    \begin{tabular}{lcccccc}
+      \hline
+      Source & $x_-^{DK}$ & $y_-^{DK}$ & $x_+^{DK}$ & $y_+^{DK}$ & $x_\xi^{D\pi}$ & $y_\xi^{D\pi}$ \\
+      \hline
+      Statistical                                                & $2.87$ & $3.40$ & $2.51$ & $3.05$ & $4.24$ & $5.17$ \\
+      \hline
+      Mass shape                                                 & $0.02$ & $0.02$ & $0.03$ & $0.06$ & $0.02$ & $0.04$ \\
+      Bin-dependent mass shape                                   & $0.11$ & $0.05$ & $0.10$ & $0.19$ & $0.68$ & $0.16$ \\
+      PID efficiency                                             & $0.02$ & $0.02$ & $0.03$ & $0.06$ & $0.02$ & $0.04$ \\
+      Low-mass background model                                  & $0.02$ & $0.02$ & $0.03$ & $0.04$ & $0.02$ & $0.02$ \\
+      Charmless background                                       & $0.14$ & $0.15$ & $0.12$ & $0.14$ & $0.01$ & $0.02$ \\
+      $C\!P$ violation in low-mass background                    & $0.01$ & $0.10$ & $0.08$ & $0.12$ & $0.07$ & $0.26$ \\
+      Semi-leptonic $b$-hadron decays                            & $0.05$ & $0.27$ & $0.06$ & $0.01$ & $0.07$ & $0.19$ \\
+      Semi-leptonic charm decays                                 & $0.02$ & $0.07$ & $0.03$ & $0.15$ & $0.06$ & $0.24$ \\
+      $D\to K^-\pi^+\pi^-\pi^+$ background                       & $0.11$ & $0.05$ & $0.07$ & $0.04$ & $0.09$ & $0.05$ \\
+      $\Lambda_b\to pD\pi^-$ background                          & $0.01$ & $0.25$ & $0.14$ & $0.04$ & $0.06$ & $0.34$ \\
+      $D\to K^-\pi^+\pi^-\pi^+\pi^0$ background                  & $0.30$ & $0.05$ & $0.19$ & $0.07$ & $0.05$ & $0.01$ \\
+      Fit bias                                                   & $0.06$ & $0.05$ & $0.13$ & $0.02$ & $0.06$ & $0.13$ \\
+      \hline
+      Total LHCb systematic                                      & $0.37$ & $0.43$ & $0.34$ & $0.32$ & $0.70$ & $0.57$ \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \begin{center}
+    {\normalsize Give systematic uncertainties in terms of CP observables (not $\gamma$) since these are more Gaussian and better behaved}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Backup: Interpretation toys}
+  \begin{center}
+    We can perform toy studies on the interpretation fit, but we do \underline{not} expect these to behave very Gaussian...
+  \end{center}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_KKpipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$K^+K^-\pi^+\pi^-$}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$\pi^+\pi^-\pi^+\pi^-$}
+    \end{subfigure}
+    \vspace{-0.5cm}
+    \caption*{$\gamma$ pull distributions}
+  \end{figure}
+  \vspace{-0.3cm}
+  \begin{center}
+    Indeed, small but significant biases are observed!\\
+    Use pull distributions to correct central values of physics parameters
+  \end{center}
+\end{frame}
+
+\begin{frame}{Backup: Interpretation toys}
+  \begin{center}
+    We can perform toy studies on the interpretation fit, but we do \underline{not} expect these to behave very Gaussian...
+  \end{center}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_KKpipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$K^+K^-\pi^+\pi^-$}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=1.0\textwidth]{Plots/gamma_pull_toys_pipipipi.pdf}
+      \vspace{-0.3cm}
+      \caption*{$\pi^+\pi^-\pi^+\pi^-$}
+    \end{subfigure}
+    \vspace{-0.5cm}
+    \caption*{$\gamma$ pull distributions}
+  \end{figure}
+  \vspace{-0.3cm}
+  \begin{center}
+    The absolute bias corrections are:\\
+    $K^+K^-\pi^+\pi^-$: $+5.6^\circ$, $\pi^+\pi^-\pi^+\pi-$: $-3.0^\circ$, combined: $-3.0^\circ$
+  \end{center}
 \end{frame}
 
 \begin{frame}{Backup: Charm mixing studies with multi-body decays}
